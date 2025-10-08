@@ -1,21 +1,25 @@
 Use: eas update
-To see it in action, you need to start the Expo development server. You can do this by running the following
-  commands in your terminal:
 
+To see it in action, start the Expo development server. Run the commands below in a terminal opened at the project.
 
-  `bash                                                                                                                   
-  cd C:\Users\redst\Desktop\gitHub\personal\HabitForge\frontend\HabitForgeApp                                             
-  npm start                                                                                                               
-  `                                                                                                                       
-                                                                                                                          
-  This will start the Metro Bundler and provide you with a QR code. Scan this code with the Expo Go app on                
-  your Android or iOS device to run the app. You can also run it in a web browser or a local simulator.                   
-                                                                                                                          
-                                                                                                                          
-  The login and sign-up buttons will now use Firebase to authenticate users.
+PowerShell (Windows):
+```powershell
+cd C:\Users\redst\Desktop\gitHub\personal\HabitForge\frontend\HabitForgeApp
+npm start
+```
 
+If you're using Git Bash, WSL, macOS or Linux, use a bash-style path:
+```bash
+cd /c/Users/redst/Desktop/gitHub/personal/HabitForge/frontend/HabitForgeApp
+npm start
+```
 
-  What would you like to work on next? We can proceed with:
-  1.  Adding Google OAuth to the login screen.
-  2.  Setting up a dashboard screen to redirect to after login.
-  3.  Beginning the User Profile Creation feature.
+This will start the Metro Bundler and provide a QR code. Scan the QR with the Expo Go app on an Android or iOS device, or run the
+app in a simulator or web browser.
+
+The login and sign-up buttons will now use Firebase to authenticate users.
+
+What would you like to work on next? We can proceed with:
+1. Adding Google OAuth to the login screen.
+2. Setting up a dashboard screen to redirect to after login.
+3. Beginning the User Profile Creation feature.
