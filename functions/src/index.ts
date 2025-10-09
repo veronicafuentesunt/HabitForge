@@ -7,58 +7,26 @@
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
 
-import { onCall, HttpsError } from "firebase-functions/v2/https";
-import * as admin from "firebase-admin";
-import { setGlobalOptions } from "firebase-functions/v2";
+import {setGlobalOptions} from "firebase-functions";
+import {onRequest} from "firebase-functions/https";
+import * as logger from "firebase-functions/logger";
 
-admin.initializeApp();
+// Start writing functions
+// https://firebase.google.com/docs/functions/typescript
+
+// For cost control, you can set the maximum number of containers that can be
+// running at the same time. This helps mitigate the impact of unexpected
+// traffic spikes by instead downgrading performance. This limit is a
+// per-function limit. You can override the limit for each function using the
+// `maxInstances` option in the function's options, e.g.
+// `onRequest({ maxInstances: 5 }, (req, res) => { ... })`.
+// NOTE: setGlobalOptions does not apply to functions using the v1 API. V1
+// functions should each use functions.runWith({ maxInstances: 10 }) instead.
+// In the v1 API, each function can only serve one request per container, so
+// this will be the maximum concurrent request count.
 setGlobalOptions({ maxInstances: 10 });
 
-export const share = onCall(async (request) => {
-  const { friendId, amount, type } = request.data;
-  const uid = request.auth?.uid;
-
-  if (!uid) {
-    throw new HttpsError(
-      "unauthenticated",
-      "The function must be called while authenticated."
-    );
-  }
-
-  const db = admin.firestore();
-
-  const senderRef = db.collection("users").doc(uid);
-  const receiverRef = db.collection("users").doc(friendId);
-
-  return db.runTransaction(async (transaction) => {
-    const senderDoc = await transaction.get(senderRef);
-    const receiverDoc = await transaction.get(receiverRef);
-
-    if (!senderDoc.exists || !receiverDoc.exists) {
-      throw new HttpsError("not-found", "User not found.");
-    }
-
-    const senderData = senderDoc.data();
-    if (!senderData) {
-      throw new HttpsError("internal", "Sender data not found.");
-    }
-    const currentAmount = type === "XP" ? senderData.xp : senderData.coins;
-
-    if (currentAmount < amount) {
-      throw new HttpsError(
-        "failed-precondition",
-        "Insufficient funds."
-      );
-    }
-
-    const senderUpdate = {};
-    senderUpdate[type.toLowerCase()] = admin.firestore.FieldValue.increment(-amount);
-    transaction.update(senderRef, senderUpdate);
-
-    const receiverUpdate = {};
-    receiverUpdate[type.toLowerCase()] = admin.firestore.FieldValue.increment(amount);
-    transaction.update(receiverRef, receiverUpdate);
-
-    return { success: true };
-  });
-});
+// export const helloWorld = onRequest((request, response) => {
+//   logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
