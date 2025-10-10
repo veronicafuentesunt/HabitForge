@@ -1,0 +1,234 @@
+[
+  {
+    "id": "origin_badge",
+    "name": "Origin Badge",
+    "description": "Created account",
+    "stage": 1,
+    "category": "Beginnings"
+  },
+  {
+    "id": "first_steps",
+    "name": "First Steps",
+    "description": "Completed first task",
+    "stage": 1,
+    "category": "Beginnings"
+  },
+  {
+    "id": "the_awakening",
+    "name": "The Awakening",
+    "description": "Finished first day with all tasks done",
+    "stage": 1,
+    "category": "Beginnings"
+  },
+  {
+    "id": "unlocked_existence",
+    "name": "Unlocked: Existence",
+    "description": "Set first goal or milestone",
+    "stage": 1,
+    "category": "Beginnings"
+  },
+  {
+    "id": "rising_momentum",
+    "name": "Rising Momentum",
+    "description": "Completed 5 tasks",
+    "stage": 2,
+    "category": "Momentum"
+  },
+  {
+    "id": "flow_seeker",
+    "name": "Flow Seeker",
+    "description": "3-day streak",
+    "stage": 2,
+    "category": "Momentum"
+  },
+  {
+    "id": "quest_accepted",
+    "name": "Quest Accepted",
+    "description": "Joined first challenge or project",
+    "stage": 2,
+    "category": "Momentum"
+  },
+  {
+    "id": "trailblazer",
+    "name": "Trailblazer",
+    "description": "Completed first week of consistent activity",
+    "stage": 2,
+    "category": "Momentum"
+  },
+  {
+    "id": "keeper_of_focus",
+    "name": "Keeper of Focus",
+    "description": "10-day streak",
+    "stage": 3,
+    "category": "Mastery"
+  },
+  {
+    "id": "milestone_conqueror",
+    "name": "Milestone Conqueror",
+    "description": "Completed a major project/goal",
+    "stage": 3,
+    "category": "Mastery"
+  },
+  {
+    "id": "the_strategist",
+    "name": "The Strategist",
+    "description": "Used advanced features like tags, categories, or automation",
+    "stage": 3,
+    "category": "Mastery"
+  },
+  {
+    "id": "guardian_of_time",
+    "name": "Guardian of Time",
+    "description": "Hit a productivity milestone, e.g., 50 tasks completed",
+    "stage": 3,
+    "category": "Mastery"
+  },
+  {
+    "id": "the_ascendant",
+    "name": "The Ascendant",
+    "description": "30-day streak",
+    "stage": 4,
+    "category": "Legendary"
+  },
+  {
+    "id": "architect_of_order",
+    "name": "Architect of Order",
+    "description": "100 tasks completed",
+    "stage": 4,
+    "category": "Legendary"
+  },
+  {
+    "id": "master_of_flow",
+    "name": "Master of Flow",
+    "description": "Sustained productivity for a full month",
+    "stage": 4,
+    "category": "Legendary"
+  },
+  {
+    "id": "eternal_origin",
+    "name": "Eternal Origin",
+    "description": "1-year anniversary badge",
+    "stage": 4,
+    "category": "Legendary"
+  },
+  {
+    "id": "the_insomniac",
+    "name": "The Insomniac",
+    "description": "Completed a task between 2–4 AM",
+    "category": "Unique"
+  },
+  {
+    "id": "flawless_victory",
+    "name": "Flawless Victory",
+    "description": "Completed every task on the list for 7 days straight",
+    "category": "Unique"
+  },
+  {
+    "id": "the_archivist",
+    "name": "The Archivist",
+    "description": "Logged 1,000 tasks total",
+    "category": "Unique"
+  },
+  {
+    "id": "one_more_thing",
+    "name": "One More Thing…",
+    "description": "Added a task at the very last minute before midnight",
+    "category": "Unique"
+  },
+  {
+    "id": "the_perfectionist",
+    "name": "The Perfectionist",
+    "description": "Edited the same task 5+ times before completing it",
+    "category": "Unique"
+  },
+  {
+    "id": "phantom_taskmaster",
+    "name": "Phantom Taskmaster",
+    "description": "Completed a task within 1 minute of creating it",
+    "category": "Unique"
+  },
+  {
+    "id": "the_marathoner",
+    "name": "The Marathoner",
+    "description": "Maintained a streak for 100 days",
+    "category": "Unique"
+  },
+  {
+    "id": "zen_master",
+    "name": "Zen Master",
+    "description": "Had 0 overdue tasks for an entire month",
+    "category": "Unique"
+  },
+  {
+    "id": "the_multitasker",
+    "name": "The Multitasker",
+    "description": "Completed 10 tasks in a single day",
+    "category": "Unique"
+  },
+  {
+    "id": "secret_finder",
+    "name": "Secret Finder",
+    "description": "Discovered a hidden feature or Easter egg in the app",
+    "category": "Unique"
+  },
+  {
+    "id": "new_year_new_quest",
+    "name": "New Year, New Quest",
+    "description": "Completed a task on January 1st",
+    "category": "Seasonal"
+  },
+  {
+    "id": "spring_renewal",
+    "name": "Spring Renewal",
+    "description": "Cleared all overdue tasks during March/April",
+    "category": "Seasonal"
+  },
+  {
+    "id": "summer_sprint",
+    "name": "Summer Sprint",
+    "description": "Completed 50 tasks in June–August",
+    "category": "Seasonal"
+  },
+  {
+    "id": "harvest_hustler",
+    "name": "Harvest Hustler",
+    "description": "Finished a big project in October",
+    "category": "Seasonal"
+  },
+  {
+    "id": "winter_warrior",
+    "name": "Winter Warrior",
+    "description": "Maintained a streak through December holidays",
+    "category": "Seasonal"
+  },
+  {
+    "id": "deep_year_legend",
+    "name": "Leap Year Legend",
+    "description": "Completed a task on Feb 29th",
+    "category": "Seasonal"
+  },
+  {
+    "id": "birthday_bonus",
+    "name": "Birthday Bonus",
+    "description": "Logged in on your birthday",
+    "category": "Seasonal"
+  },
+  {
+    "id": "anniversary_badge",
+    "name": "Anniversary Badge",
+    "description": "Earned on the anniversary of creating your account",
+    "category": "Seasonal"
+  },
+  {
+    "id": "community_quest",
+    "name": "Community Quest",
+    "description": "Participated in a global challenge",
+    "category": "Seasonal"
+  },
+  {
+    "id": "event_specific",
+    "name": "Event-Specific",
+    "description": "For example, if you run a themed challenge like “Productivity Olympics”, users could earn Gold, Silver, Bronze Torch badges.",
+    "category": "Seasonal"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Level": 1,
+    "XP for level": 40,
+    "Cumulative XP": 40,
+    "Days @50 XP/day": 1,
+    "Reward tier": "Bronze Starter"
+  },
+  {
+    "Level": 2,
+    "XP for level": 60,
+    "Cumulative XP": 100,
+    "Days @50 XP/day": 2,
+    "Reward tier": "Bronze"
+  },
+  {
+    "Level": 3,
+    "XP for level": 80,
+    "Cumulative XP": 180,
+    "Days @50 XP/day": 4,
+    "Reward tier": "Bronze+"
+  },
+  {
+    "Level": 4,
+    "XP for level": 110,
+    "Cumulative XP": 290,
+    "Days @50 XP/day": 6,
+    "Reward tier": "Silver Starter"
+  },
+  {
+    "Level": 5,
+    "XP for level": 150,
+    "Cumulative XP": 440,
+    "Days @50 XP/day": 9,
+    "Reward tier": "Silver"
+  },
+  {
+    "Level": 6,
+    "XP for level": 200,
+    "Cumulative XP": 640,
+    "Days @50 XP/day": 13,
+    "Reward tier": "Silver+"
+  },
+  {
+    "Level": 7,
+    "XP for level": 260,
+    "Cumulative XP": 900,
+    "Days @50 XP/day": 18,
+    "Reward tier": "Gold Starter"
+  },
+  {
+    "Level": 8,
+    "XP for level": 340,
+    "Cumulative XP": 1240,
+    "Days @50 XP/day": 25,
+    "Reward tier": "Gold"
+  },
+  {
+    "Level": 9,
+    "XP for level": 440,
+    "Cumulative XP": 1680,
+    "Days @50 XP/day": 34,
+    "Reward tier": "Gold+"
+  },
+  {
+    "Level": 10,
+    "XP for level": 560,
+    "Cumulative XP": 2240,
+    "Days @50 XP/day": 45,
+    "Reward tier": "Platinum Starter"
+  },
+  {
+    "Level": 11,
+    "XP for level": 700,
+    "Cumulative XP": 2940,
+    "Days @50 XP/day": 59,
+    "Reward tier": "Platinum"
+  },
+  {
+    "Level": 12,
+    "XP for level": 880,
+    "Cumulative XP": 3820,
+    "Days @50 XP/day": 76,
+    "Reward tier": "Platinum+"
+  },
+  {
+    "Level": 13,
+    "XP for level": 1100,
+    "Cumulative XP": 4920,
+    "Days @50 XP/day": 99,
+    "Reward tier": "Diamond Starter"
+  },
+  {
+    "Level": 14,
+    "XP for level": 1380,
+    "Cumulative XP": 6300,
+    "Days @50 XP/day": 126,
+    "Reward tier": "Diamond"
+  },
+  {
+    "Level": 15,
+    "XP for level": 1720,
+    "Cumulative XP": 8020,
+    "Days @50 XP/day": 161,
+    "Reward tier": "Diamond+"
+  },
+  {
+    "Level": 16,
+    "XP for level": 2140,
+    "Cumulative XP": 10160,
+    "Days @50 XP/day": 203,
+    "Reward tier": "Master"
+  },
+  {
+    "Level": 17,
+    "XP for level": 2660,
+    "Cumulative XP": 12820,
+    "Days @50 XP/day": 257,
+    "Reward tier": "Grandmaster"
+  },
+  {
+    "Level": 18,
+    "XP for level": 3300,
+    "Cumulative XP": 16120,
+    "Days @50 XP/day": 323,
+    "Reward tier": "Legend Starter"
+  },
+  {
+    "Level": 19,
+    "XP for level": 4100,
+    "Cumulative XP": 20220,
+    "Days @50 XP/day": 405,
+    "Reward tier": "Legend"
+  },
+  {
+    "Level": 20,
+    "XP for level": 5100,
+    "Cumulative XP": 25320,
+    "Days @50 XP/day": 507,
+    "Reward tier": "Mythic"
+  }
+]
